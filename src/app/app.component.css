@@ -1,0 +1,23 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'menu   main';
+}
+
+.grid-header{
+    grid-area: header;
+}
+
+.grid-menu{
+    grid-area: menu;
+}
+
+.grid-content{
+    grid-area: main;
+    padding-left: 15px;
+}
+
+.content{
+    display: inline-flex;
+}
